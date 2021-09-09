@@ -26,7 +26,7 @@ public class EmployeeControllerTest {
 			.andDo(print())
 			.andExpect(status().isOk())
 			.andExpect(view().name("home"))
-			.andExpect(content().string(containsString("Jana")));
+			.andExpect(content().string(containsString("Ali")));
 			
 	}
 
